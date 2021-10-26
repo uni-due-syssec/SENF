@@ -2,7 +2,7 @@
 
 SENF is a statistical evaluation framework to compare the performance of an arbitrary set of fuzzers on a set of test programs. SENF has been used in an extensive evaluation to quantify the influence of different evaluation parameters, e.g, the run-time or number of trials. Given a SQLite database which contains the experiment results, SENF calculates the p-value (using interval-scaled and dichotomous tests) and standardized effect sizes comparing each fuzzer on every target. Additionally, SENF calculates a ranking which compares the overall performance of the tested fuzzers.
 
-Our paper about SENF will be published at [ESORICS 2021](https://esorics2021.athene-center.de/). The final authenticated version is available online at https://doi.org/TBA. An extended version of this paper is available on [arXiv](https://arxiv.org/abs/2108.07076).
+Our paper about SENF will be published at [ESORICS 2021](https://esorics2021.athene-center.de/). The final authenticated version is available online at https://doi.org/10.1007/978-3-030-88418-5_9. An extended version of this paper is available on [arXiv](https://arxiv.org/abs/2108.07076).
 
 ### Required packages:
 * [R-Project](https://www.r-project.org/) (has to be in `PATH`)
